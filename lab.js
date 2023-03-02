@@ -8,6 +8,15 @@
 
 //CODE HERE
 
+// lovesCode = true
+// console.log(lovesCode)
+
+// if (lovesCode === true){
+//   console.log(`I love to code!`)
+// }else{
+//   console.log(`Coding has its challenges.`)
+// }
+
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
 var brittanisAge = 34;
@@ -22,6 +31,14 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+// if (amysAge > brittanisAge){
+//   console.log("Amy is older than Brittany.")
+// }else if (amysAge < brittanisAge){
+//   console.log("Brittany is older than Amy.")
+// }else{
+//   console.log("Amy and Brittany are the same age.")
+// }
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -29,6 +46,12 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
+// if (amysBirthYear === brittanisBirthYear){
+//   console.log("Amy and Brittany were born in the same year.")
+// }else{
+//   console.log("Amy and Brittany were not born in the same year.")
+// }
 
 ////////// PROBLEM 4 //////////
 
@@ -42,6 +65,16 @@ let rain = true;
 
 //CODE HERE
 
+// if (temperature >= 80 && rain = true){
+//   console.log("You should wear a white t-shirt and take an umbrella.")
+// }else if(60 < temperature < 80 && rain === true){
+//   console.log("You should wear a rain jacket.")
+// }else if(temperature < 60){
+//   console.log("You should wear a jacket and bring an umbrella.")
+// }else{
+//   console.log("Go Naked!")
+// }
+
 ////////// PROBLEM 5 //////////
 
 /*
@@ -49,6 +82,16 @@ let rain = true;
 */
 
 //CODE HERE
+
+// for(let x = 0; x < 10; x++){
+//   console.log("Hello!")
+// }
+
+// let x = 0
+// for(x = 0; x < 10; x++){
+//   console.log("Hello Again!")
+// }
+// Question: Why doesn't this code work without re-declairing the variable?
 
 ////////// PROBLEM 6 //////////
 
@@ -58,6 +101,10 @@ let rain = true;
 
 //CODE HERE
 
+// for(let y = 1; y <= 10; y++){
+//   console.log(y)
+// }
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -66,6 +113,10 @@ let rain = true;
 
 //CODE HERE
 
+// for(let z = 10; z >= 0; z--){
+//   console.log(z)
+// }
+//Question: Why is => different than >=?
 
 ////////// PROBLEM 8 //////////
 
@@ -78,6 +129,12 @@ let passingScore = 7;
 
 //CODE HERE
 
+// while(score < passingScore){
+//   console.log("Your score is not high enough...")
+//   score++
+// }
+//Question: This confused me... Need explination
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -89,10 +146,29 @@ let passingScore = 7;
 
 //CODE HERE
 
+let changeMyMind = false;
+
+if (changeMyMind === true){
+  console.log(changeMyMind = false)
+}else if(changeMyMind === false){
+  console.log(changeMyMind = true)
+}else{
+  console.log("Undefined object")
+}
+//Question: What the hell is going on here...
+
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
+
+if (changeMyMind !== true){
+  console.log(changeMyMind = true)
+}else if (changeMyMind !== false){
+  console.log(changeMyMind = false)
+}else{
+  console.log("Undefined object")
+}
 
 ////////// ADVANCED PROBLEMS //////////
 
